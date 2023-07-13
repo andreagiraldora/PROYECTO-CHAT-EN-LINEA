@@ -33,14 +33,14 @@ if (isset($_SESSION['unique_id'])) {
           <i class="fas fa-eye"></i>
         </div>
         <div class="field image">
-          <label>Tu Imagen</label>
+          <label>Tu foto</label>
           <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
         </div>
         <div class="field button">
           <input type="submit" name="submit" value="Acceder al Chat">
         </div>
       </form>
-      <div class="link">Ya te has registrado? <a href="login.php">Ingresa desde acá</a></div>
+      <div class="link">Ya te registraste? <a href="login.php">Ingresa acá</a></div>
     </section>
   </div>
 
