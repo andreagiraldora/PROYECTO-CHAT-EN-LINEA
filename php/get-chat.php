@@ -27,7 +27,7 @@ if (isset($_SESSION['unique_id'])) {
             }
         }
     } else {
-        $output .= '<div class="text">No hay mensajes disponibles. Una vez que envíe el mensaje, aparecerán aquí.</div>';
+        $output .= '<div class="text">No hay mensajes con esta persona. Una vez que envíe el mensaje, aparecerán aquí.</div>';
     }
     echo $output;
 } else {

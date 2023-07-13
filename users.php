@@ -27,7 +27,7 @@ if (!isset($_SESSION['unique_id'])) {
         <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Cerrar Sesión</a>
       </header>
       <div class="search">
-        <span class="text">Selecciona un usuario para iniciar el chat</span>
+        <span class="text">BUSCAR USUARIO PARA INICIAR CHAT</span>
         <input type="text" placeholder="Enter name to search...">
         <button><i class="fas fa-search"></i></button>
       </div>
